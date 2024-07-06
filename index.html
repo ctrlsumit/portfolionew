@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== UNICONS ===============-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Portfolio Website</title>
+</head> 
+
+<body>
+  <!--=============== HEADER ===============-->
+
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">su<span>m</span>it</a>
+
+      <div class="nav__menu " id="nav-menu">
+        <ul class="nav__list ">
+          <li><a href="#home" class="nav__link active-link">Home</a></li>
+          <li><a href="#about" class="nav__link ">About</a></li>
+          <li><a href="#services" class="nav__link ">Services</a></li>
+          <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+          <li><a href="#contact" class="nav__link ">Contact</a></li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class="uil uil-times"></i>
+        </div>
+      </div>
+
+      <div class="nav__socials">
+
+
+        <a href=" https://x.com/gravity3113?t=r9hVCiu3s1dChcrkEj7DuA&s=08 " target="_blank"
+          class="nav__socials-link">
+
+          <i class="uil uil-twitter"></i>
+        </a>
+
+
+        <a href="https://www.linkedin.com/in/sumit-kumar-7b6331257/ " target="_blank" class="nav__socials-link">
+
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+
+        <a href="https://www.instagram.com/_sumit_00_7/ " target="_blank" class="nav__socials-link">
+
+          <i class="uil uil-instagram"></i>
+        </a>
+
+
+        <a href="https://github.com/ctrlsumit " target="_blank" class="nav__socials-link">
+          <i class="uil uil-github"></i>
+        </a>
+
+
+        <a href="https://takeuforward.org/profile/sumit007 " target="_blank" class="nav__socials-link">
+
+          <i class="uil uil-arrow"></i>
+        </a>
+      </div>
+      <div class="nav__btns">
+        <a href="#contact" class="nav__link-btn btn">Lets's Talk</a>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-bars"></i>
+        </div>
+      </div>
+
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home__container container grid">
+      <div class="home__content">
+        <span class="home__subtitle">
+          Welcome To My Portfolio
+        </span>
+        <h1 class="home__title">Hi, I'm Sumit kumar <span>MERN Developer.</span>.</h1>
+      </div>
+
+
+      <img src="assets/img/home.jpg" alt="" class="home__img">
+    </div>
+  </section>
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+
+
+    <!--=============== ABOUT ===============-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <img src="assets/img/about.jpg" alt="" class="about__img">
+
+        <div class="about__content">
+          <h2 class="section__title">About Me</h2>
+          <p class="about__description">Hey! I'm Sumit, a passionate MERN stack developer currently pursuing my B.Tech from Netaji Subhas University of Technology. I love building scalable and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js. My journey into coding started with a curiosity to create things that make a difference. When I'm not coding, you'll find me exploring new technologies, playing cricket, or catching up on the latest tech news</p>
+          <div class="tabs__btns">
+            <span class="tabs__btn tab__active " data-target="#skills">Main Skills</span>
+            <span class="tabs__btn" data-target="#award">Achievements</span>
+            <span class="tabs__btn" data-target="#education">Education</span>
+          </div>
+          <div class="tabs__content">
+            <div class="tabs__item tab__active" data-content id="skills">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>MERN Stack</span>
+                  <span>MongoDB , Express.js , React.js , Node.js </span>
+                </p>
+                <p class="tabs__description">
+                  <span>Frontend Technologies</span>
+                  <span>HTML , CSS , Tailwind - CSS , JavaScript , React (Daisy-UI), Socket.io
+
+                  </span>
+                </p>
+                <p class="tabs__description">
+                  <span>Additional Skills</span>
+                  <span> Git and GitHub , RESTful APIs , Responsive Design , Deployed web applications on Render and Netlify</span>
+                </p>
+
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="award">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>LeetCode</span> - 300+ Problem Solved
+                  <span>2022 -2024 </span>
+                </p>
+                <p class="tabs__description">
+                  <span>Inter-College Volleyball</span> - Silver Medal
+                  <span>2023-2024
+
+                  </span>
+                </p>
+                <p class="tabs__description">
+                  <span>3rd in school in XII examination
+                  </span> - 86.8
+                  <span> 2021-2022.</span>
+                </p>
+
+              </div>
+            </div>
+
+            <div class="tabs__item" data-content id="education">
+              <div class="tabs__data grid">
+                <p class="tabs__description">
+                  <span>B.TECH In ECE[AI & ML]</span> - Netaji Subhas University of Technology , DELHI
+                  <span>2022-2026 </span>
+                </p>
+                <p class="tabs__description">
+                  <span>Senior Secondary </span> - Rajkiya Pratibha Vikas Vidyalaya , DELHI
+                  <span>Science Stream [PCM] - [2020 -2022] </span>
+                </p>
+                <p class="tabs__description">
+                  <span>Secondary School </span> - New Police Lines Kingsway Camp , DELHI
+                  <span>2018-2020</span>
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <!-- <section class="services section" id="services">
+      <h2 class="section__title">My Awesome Service</h2>
+      <p class="section__description">There are many variations of passage of Lorem Ipsum avaialble , but
+        the majority have suffered alteration in some form
+      </p>
+      <div class="services__container container grid">
+        <div class="services__item">
+          <i class="uil uil-rss services__icon"></i>
+          <h3 class="services__title">Business Stratagy</h3>
+          <p class="services__description">I throw myself down among the tall grass by the stream as I lie close to the
+            earth</p>
+        </div>
+
+        <div class="services__item">
+          <i class="uil uil-layers services__icon"></i>
+          <h3 class="services__title">Website development</h3>
+          <p class="services__description">I throw myself down among the tall grass by the stream as I lie close to the
+            earth</p>
+        </div>
+
+        <div class="services__item"><i class="uil uil-user services__icon"></i>
+          <h3 class="services__title">Marketing & Reporting</h3>
+          <p class="services__description">I throw myself down among the tall grass by the stream as I lie close to the
+            earth</p>
+        </div>
+
+        <div class="services__item"><i class="uil uil-desktop services__icon"></i>
+          <h3 class="services__title">Mobile Developement</h3>
+          <p class="services__description">I throw myself down among the tall grass by the stream as I lie close to the
+            earth</p>
+        </div>
+
+        <div class="services__item"><i class="uil uil-rss services__icon"></i>
+          <h3 class="services__title">Business Stratagy</h3>
+          <p class="services__description">I throw myself down among the tall grass by the stream as I lie close to the
+            earth</p>
+        </div>
+
+        <div class="services__item"><i class="uil uil-rss services__icon"></i>
+          <h3 class="services__title">Business Stratagy</h3>
+          <p class="services__description">I throw myself down among the tall grass by the stream as I lie close to the
+            earth</p>
+        </div>
+
+
+      </div>
+    </section> -->
+
+    <!--=============== PORTFOLIO ===============-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">My Latest Project </h2>
+      <p class="section__description">Here are some of my recent projects that showcase my skills and expertise:</p>
+      <div class="portfolio__container container gird">
+        <div class="portfolio__item">
+          <a href="https://chat-app-ky2b.onrender.com/">
+              <img src="assets/img/portfolio-1.jpg" alt="" class="portfolio__img">
+              <div class="portfolio__data">
+                  <p class="portfolio__subtitle">MERN Stack & Socket.io Development</p>
+                  <h3 class="portfolio__title">Real-time Chat Application</h3>
+                  <p class="portfolio__description">Real-time chat app using MERN stack and Socket.io for communications.</p>
+              </div>
+          </a>
+      </div>
+      
+        <div class="portfolio__item">
+          <a href="https://climatecatcher.netlify.app/">
+          <img src="assets/img/portfolio-2.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">React Development</p>
+            <h3 class="portfolio__title">Weather Forecast Application</h3>
+            <p class="portfolio__description"> Weather forecast app using React for real-time weather updates.
+            </p>
+          </div>
+        </a>
+
+        </div>
+        <div class="portfolio__item">
+          <a href="https://github.com/ctrlsumit/flight-managment-system-c-">
+          <img src="assets/img/portfolio-3.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">C++ Development</p>
+            <h3 class="portfolio__title">Flight Management System</h3>
+            <p class="portfolio__description">Flight management system in C++ for scheduling and bookings management.
+            </p>
+          </div>
+        </a>
+        </div>
+
+        <div class="portfolio__item">
+          <a href="https://github.com/ctrlsumit/chess">
+          <img src="assets/img/portfolio-4.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">Express & Socket.io Development</p>
+            <h3 class="portfolio__title">Online Chess Game</h3>
+            <p class="portfolio__description">Multiplayer chess game using Express and Socket.io for real-time play.
+            </p>
+          </div>
+        </a>
+        </div>
+
+        <div class="portfolio__item">
+          <a href="https://github.com/ctrlsumit/nike_shoe">
+          <img src="assets/img/portfolio-5.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">React & Tailwind CSS Development</p>
+            <h3 class="portfolio__title">Nike Shoe Website Landing Page</h3>
+            <p class="portfolio__description">Landing page for Nike shoes using React and Tailwind CSS.
+            </p>
+          </div>
+        </a>
+        </div>
+
+        <!-- <div class="portfolio__item">
+          <a href="https://github.com/ctrlsumit/nike_shoe">
+          <img src="assets/img/portfolio-6.jpg" alt="" class="portfolio__img">
+          <div class="portfolio__data">
+            <p class="portfolio__subtitle">React & Tailwind CSS Development</p>
+            <h3 class="portfolio__title">Nike Shoe Website Landing Page</h3>
+            <p class="portfolio__description">Landing page for Nike shoes using React and Tailwind CSS.
+            </p>
+          </div>
+        </a>
+        </div> -->
+      </div>0
+    </section>
+
+    <!--=============== CONTACT ===============-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__content">
+          <h2 class="section__title"> Hire Me</h2>
+          <p class="Contact__description">
+            I am available for freelance work. Connect with me via phone : <a href="tel:7982822784">7982822784</a>
+            or email: <a href="mailto:palsumitkumar2004@gmail.com">palsumitkumar2004@gmail.com></a>
+          </p>
+          <form class="contact__form" id="contact-form">
+            <div class="contact__form-input">
+              <input type="text" name="name" placeholder="Your Name * " class="contact__input" id="contact-name">
+            </div>
+
+            <div class="contact__form-input">
+              <input type="email" name="email" placeholder="Your Email * " class="contact__input" id="contact-email">
+            </div>
+
+            <div class="contact__form-input">
+              <input type="text" name="Subject" placeholder="Write A Subject * " class="contact__input"
+                id="contact-subject">
+            </div>
+
+            <div class="contact__form-input">
+              <textarea name="message" id="contact-message" class="contact__input textarea"
+                placeholder="Your Message"></textarea>
+            </div>
+            <input type="submit" value="Submit" class="btn">
+            <p class="error__message" id="error-message">Error</p>
+          </form>
+        </div>
+        <img src="assets/img/contact.jpg" alt="" class="contact__img">
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="index.html" class="footer__logo">su<span>m</span>it</a>
+      <div class="footer__socials">
+        <a href=" https://x.com/gravity3113?t=r9hVCiu3s1dChcrkEj7DuA&s=08 " target="_blank"
+          class="footer__socials-link">
+
+          <i class="uil uil-twitter"></i>
+        </a>
+
+
+        <a href="https://www.linkedin.com/in/sumit-kumar-7b6331257/ " target="_blank" class="footer__socials-link">
+
+          <i class="uil uil-linkedin"></i>
+        </a>
+
+
+        <a href="https://www.instagram.com/_sumit_00_7/ " target="_blank" class="footer__socials-link">
+
+          <i class="uil uil-instagram"></i>
+        </a>
+
+
+        <a href="https://github.com/ctrlsumit " target="_blank" class="footer__socials-link">
+          <i class="uil uil-github"></i>
+        </a>
+
+
+        <a href="https://takeuforward.org/profile/sumit007 " target="_blank" class="footer__socials-link">
+
+          <i class="uil uil-arrow"></i>
+        </a>
+      </div>
+
+      <p class="footer__copyright">&copy; 2024. All rights reserved</p>
+    </div>
+  </footer>
+
+  <!--=============== SCROLL UP ===============-->
+<a href="#" class="scrollup" id="scroll-up">
+  <i class="uil uil-angle-up scroll-up__icon"></i>
+</a>
+  <!--=============== EMAIL JS ===============-->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
